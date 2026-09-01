@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: sahakar-ai-frontend
+    env: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: VITE_API_URL
+        value: https://sahakar-ai-backend.onrender.com
