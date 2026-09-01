@@ -167,7 +167,6 @@ function App() {
           <label className="input-wrap"><span className="sr-only">Your question</span><textarea value={input} onChange={(event) => setInput(event.target.value)} placeholder={recording ? "Listening… click stop when finished" : "Type or speak your question…"} rows="1" onKeyDown={(event) => { if (event.key === "Enter" && !event.shiftKey) { event.preventDefault(); sendMessage(); } }} /></label>
           <button className="send-button" type="submit" disabled={!input.trim() || loading} aria-label="Send question">➤</button>
         </form>
-        <footer>Private by design: your API key stays on the server.</footer>
       </section>
     </main>
   );
