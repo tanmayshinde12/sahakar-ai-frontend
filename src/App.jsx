@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "https://sahakar-ai-backend-1.onrender.com";
+const API_URL = import.meta.env.VITE_API_URL || "https://sahakar-ai-backend-3.onrender.com";
 const suggestions = [
   "PMFBY मध्ये दावा कसा करायचा?",
   "सहकारी समिति में सदस्य के अधिकार क्या हैं?",
