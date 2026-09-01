@@ -8,4 +8,4 @@ services:
       - key: PORT
         value: 8080
       - key: VITE_API_URL
-        value: https://sahakar-ai-backend.onrender.com
+        value: https://sahakar-ai-backend-1.onrender.com
